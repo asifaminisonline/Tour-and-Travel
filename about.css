@@ -1,0 +1,130 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+}
+.bg-img{
+    background-image: url("./assets/about-top-image.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 400px;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    background-color:#fff;
+}
+.logo h1{
+    color: #00c8ff;
+    cursor: pointer;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-links li{
+    text-decoration: none;
+    list-style: none;
+}
+.nav-links li a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #00c8ff;
+
+}
+.about-tag{
+    position: relative;
+    left: 50%;
+    color: #fff;
+    padding-bottom: 50px;
+}
+.about-us{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:10px;
+    background-color: #f8faff;
+}
+.about-us .child{
+    width: 45%;
+    padding: 20px;
+}
+.about-content-links{
+    display: flex;
+}
+.about-content-links h3{
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #78d5ef;
+    color: #fff;
+    border-radius: 10px;
+}
+.about-content h1{
+    color: rgb(78, 79, 80);
+}
+.about-content p{
+    color: rgb(78, 79, 80);
+}
+.about-us img{
+    width: 100%;
+}
+.FAQ{
+    background-color:#f8faff;
+}
+.FAQ .title{
+    text-align: center;
+    padding: 30px;
+    color:rgb(34, 186, 236)
+}
+.FAQ-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.FAQ-content .child{
+    width: 25%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    color: rgb(78, 79, 80);
+}
+.footer-body{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    background-color: #222831;
+    padding: 30px;
+ }
+ .footer-body .child{
+    width: 20%;
+    margin: 15px;
+    padding: 15px;
+    color: #fff;
+ }
+ .footer-body .quick-links li{
+    position: relative;
+    right: 30px;
+    text-decoration: none;
+    list-style: none;
+ }
+ .footer-body .quick-links li a{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    line-height: 30px !important;
+ }
+ @media (max-width: 768px){
+    .about-us .child{
+        width: 100%;
+        padding: 20px;
+    }
+    .FAQ-content .child{
+        width: 100%;
+    }
+}

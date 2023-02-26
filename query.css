@@ -1,0 +1,51 @@
+@media (max-width: 768px){
+    .search-section{
+        width: auto;
+    }
+    .search-section input{
+        width: 100%;
+        border: 1px solid grey;
+    }
+    .search-section button{
+        width: 100%;
+        border: 1px solid grey;
+    }
+    .browse-highlights-links li{
+        padding: 10px;   
+    }
+    .top-cards .card{
+        margin: 20px;
+        height: 250px;
+        width: 100%;
+        padding: 50px;
+    }
+    .top-cards .cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .special-offer-cards .card{
+        width: 100%;
+     }
+    .featured-destination-cards .card{
+        width: 100%;
+    }
+
+    .facts .facts-content{
+        display: flex;
+        flex-wrap: wrap;    
+        width: 100%;
+        border-radius: 5px;
+     }
+     .facts .child{
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #fff;
+     }
+     .about , .testimonial{
+        width: 100%;
+     }
+    
+     .footer-body .child{
+        width: 100%;
+     }
+}

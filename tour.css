@@ -1,0 +1,117 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+}
+.bg-img{
+    background-image: url("https://preview.colorlib.com/theme/direngine/images/bg_1.jpg.webp");
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: #fff;
+}
+.logo h1{
+    color: #00c8ff;
+    cursor: pointer;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-links li{
+    text-decoration: none;
+    list-style: none;
+}
+.nav-links li a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #00c8ff;
+
+}
+.special-offer-cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+}
+.special-offers-title h1{
+text-align: center;
+font-size: 34px;
+color: #00c8ff;
+}
+.special-offers-title h3{
+margin-left: 30px;
+ }
+ .special-offer-cards .card{
+    width: 17%;
+    margin: 10px;
+    border: 1px solid rgb(230, 225, 225);
+    padding: 5px;
+ }
+ .special-offer-cards .card img{
+    width: 100%;
+ }
+ .special-offer-cards .card-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:rgb(145, 147, 148) ;
+    font-weight: 300;
+ }
+ .special-offer-cards .card-description{
+    color:rgb(78, 79, 80)  ;
+ }
+ .special-offer-cards span{
+    background-color: #8bc34a;
+    padding: 5px;
+    border-radius: 20px;
+    color: #fff;
+ }
+ .special-offer-cards button{
+    width: 100%;
+    padding: 10px;
+    background-color:#8bc34a ;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+ }
+ .footer-body{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    background-color: #222831;
+    padding: 30px;
+ }
+ .footer-body .child{
+    width: 20%;
+    margin: 15px;
+    padding: 15px;
+    color: #fff;
+ }
+ .footer-body .quick-links li{
+    position: relative;
+    right: 30px;
+    text-decoration: none;
+    list-style: none;
+ }
+ .footer-body .quick-links li a{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    line-height: 30px !important;
+ }
+ @media (max-width: 768px){
+ .special-offer-cards .card{
+    width: 100%;
+ }
+}
