@@ -1,0 +1,131 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+}
+.bg-img{
+    background-image: url("https://preview.colorlib.com/theme/direngine/images/bg_1.jpg.webp");
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: #fff;
+}
+.logo h1{
+    color: #00c8ff;
+    cursor: pointer;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-links li{
+    text-decoration: none;
+    list-style: none;
+}
+.nav-links li a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #00c8ff;
+
+}
+.contact-title{
+    text-align: left;
+    margin-left: 120px;
+}
+.contact-info-child{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info-child h1{
+    font-size: 20px;
+    color: #585a5c;
+    font-weight: lighter;
+    padding: 25px;
+}
+.contact-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+}
+.contact-body form{
+    width: 45%;
+}
+.contact-body input, .contact-body textarea{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.contact-body button{
+    width: 105%;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #00c8ff;
+    cursor: pointer;
+}
+.contact-body .map{
+    width: 45%;
+    height: 400px;
+    margin-bottom: 20px;
+}
+.footer-body{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    background-color: #222831;
+    padding: 30px;
+ }
+ .footer-body .child{
+    width: 20%;
+    margin: 15px;
+    padding: 15px;
+    color: #fff;
+ }
+ .footer-body .quick-links li{
+    position: relative;
+    right: 30px;
+    text-decoration: none;
+    list-style: none;
+ }
+ .footer-body .quick-links li a{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    line-height: 30px !important;
+ }
+ @media (max-width: 768px){
+    .contact-title{
+        margin-left: 10px;
+    }
+    .contact-info-child{
+        justify-content: left;
+    }
+    .contact-info-child h1{
+        padding: 10px;
+    }
+    .contact-body form{
+        width: 100%;
+        padding: 20px;
+    }
+    .contact-body .map{
+        width: 100%;
+        height: 300px;
+        padding: 20px;
+    }
+    .footer-body .child{
+        width: 100%;
+     }
+}
